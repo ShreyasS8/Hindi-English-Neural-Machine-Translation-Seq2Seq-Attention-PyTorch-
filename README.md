@@ -99,16 +99,6 @@ It is trained on the [Hindi–English Parallel Corpus](https://www.kaggle.com/da
    python evaluate.py
    ```
 
----
-
-## 📈 Future Improvements
-- Use **Transformer-based architectures** (e.g., Transformer Encoder–Decoder, BERT embeddings).  
-- Apply **subword tokenization** (Byte-Pair Encoding / SentencePiece) to handle rare words.  
-- Train on **full dataset (~500k pairs)** for better generalization.  
-- Add **greedy vs beam search comparison** and **length normalization**.  
-- Optimize with **mixed precision training** for speed.  
-
----
 
 ## 📜 References
 - [Bahdanau et al., Neural Machine Translation by Jointly Learning to Align and Translate (2015)](https://arxiv.org/abs/1409.0473)  
